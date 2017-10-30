@@ -1,3 +1,234 @@
 /*
  * Estilos de tu proyecto
  */
+ /*first part*/
+
+/*font-family: 'Montserrat', sans-serif;*/
+/* damos un fondo*/
+html {
+    background-color: #212121;
+  }
+  /* Realizamos el encabezado*/
+  header {
+    background: #2c3e50; /* azul */
+    margin: 0 1rem;
+    top: 0;
+    width: 96%; 
+    z-index: 1;
+    position: fixed;
+  }
+  
+  .body {
+    width: 97%;
+    margin: 0 1rem 0 1rem;
+  }
+  /* aplicamos un id para los elementos del menu */
+  #nav>.conteiner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    }
+  .conteiner {
+      padding: -0.5rem -0.5rem;
+      padding-left: 7rem;
+    }
+  .conteiner, .text-uppercase, .span {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder ;
+  }
+  /* tamaño de la  letra del menú*/
+   .size  {
+     padding: 2rem 2rem;;
+     font-size: 2rem;
+     color: rgb(255, 255, 255);
+   }
+   /* aplicamos un  display para colocarlo en línea*/
+  .subconteiner {
+    box-sizing: border-box;
+    display: inline-flex;
+    margin-left: 27rem;
+  }
+  .space {
+      margin: 1rem;
+      font-size: 14px;
+  }
+  
+  /*section one*/
+  /*font-family: 'Lato', sans-serif; */ /*word */
+  
+  /* aplicamos la clase box para images y texto*/
+  .box {
+    background: #18bc9c;
+    margin-top: 100px;
+    height: 45rem;
+  }
+  /* imagen*/
+  #profile {
+    margin-top: 6rem;
+    margin-left: 34rem;
+  }
+  /* texto*/
+  h1 {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+  }
+  
+  hr {
+    width: 15rem;
+    background: white;
+    height: 0.5rem;
+    border:none;
+  }
+  /* párrafo*/
+   .user {
+    font-family: 'Lato', sans-serif;
+    color: rgb(246, 244, 240);/*white */
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  /* section two*/
+  .box1 {
+    background:rgb(246, 244, 240);/*white */
+    height:50rem; 
+    box-sizing: border-box;
+  }
+  .text {
+    text-transform: uppercase;
+    color: rgb(15, 15, 15);
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 5rem;
+    
+    margin: 0;
+  }
+  /* images*/
+  .figure div {
+    
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-left: -15px;
+    padding-right: -15px;
+  }
+  
+  hr.black{
+    width: 15rem;
+    background: rgb(7, 1, 1);
+    height: 0.5rem;
+    border:none;
+  }
+  
+   /* section three*/
+  .box2 {
+    background: #18BC9C;
+    margin-top: 0;
+    height: 33rem;
+  }
+  /* titulo*/
+  h2.text-uppercase {
+    margin: 0;
+    color: white; 
+    padding-top:5rem;
+    padding-bottom: 2rem;
+    text-align:  center;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: font-family: 'Lato', sans-serif;
+    
+  }
+  /* párrafo*/
+  div.span   {
+   color: white;
+   display: inline-block;
+   box-sizing: border-box;
+   text-align: justify;
+   text-transform: initial;
+   height: 6rem;
+   width:30rem;
+   padding-left: 14rem;
+  }
+  /* boton download*/
+  ul.list {
+    list-style: none;
+    margin-left: 35rem;
+    margin-right: 34rem;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 1rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    }
+  /* icono*/
+  .fa-download::before {
+    margin-right:1rem;
+  }  
+      
+  /* section four*/
+  .sectionfour {
+    background: #FFFFFF;
+    height: 55rem;
+  
+  }
+  /* Input*/
+  .contact {
+    text-transform:uppercase;
+    margin: 0; 
+    padding: 5rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  ul.list1  {
+  list-style: none;
+  }
+  
+  input {
+  height: 6rem;
+  width: 50rem;
+  margin-left: 10rem; 
+  font-size: 2rem;
+  }
+  /* boton send*/
+  .botton li  {
+    list-style: none;
+    margin-top: 4rem;
+  }
+  .botton1 {
+    background-color:  #5BC7CB; 
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;;
+    height: 3rem;
+    margin-left: 10rem;
+  }
+  
+  /* final*/
+  .footer {
+    background: #2C3E50;
+    color: white;
+    height: 20rem;
+  }
+  .column {
+    display: inline-block;
+    text-align: center;
+    margin: 3rem;
+    top: 3rem;
+    padding-left: 3rem;
+  }
+  .pie {
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
