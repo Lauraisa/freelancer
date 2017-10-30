@@ -49,12 +49,18 @@ html {
   .subconteiner {
     box-sizing: border-box;
     display: inline-flex;
-    margin-left: 27rem;
+    margin-left: 30rem;
   }
+
   .space {
       margin: 1rem;
       font-size: 14px;
   }
+
+  .shadow:hover {
+    color:#18bc9c;
+  }
+  
   
   /*section one*/
   /*font-family: 'Lato', sans-serif; */ /*word */
@@ -68,7 +74,7 @@ html {
   /* imagen*/
   #profile {
     margin-top: 6rem;
-    margin-left: 34rem;
+    margin-left: 40rem;
   }
   /* texto*/
   h1 {
@@ -95,7 +101,7 @@ html {
   /* section two*/
   .box1 {
     background:rgb(246, 244, 240);/*white */
-    height:50rem; 
+    height:53rem; 
     box-sizing: border-box;
   }
   .text {
@@ -110,11 +116,11 @@ html {
   /* images*/
   .figure div {
     
-    display: inline-block;
     margin-top: 1rem;
-    margin-left: 1rem;
-    padding-left: -15px;
-    padding-right: -15px;
+    margin-left: 11rem;
+    padding-left: 4rem ;
+    margin-right: -16rem;
+    float: left;
   }
   
   hr.black{
@@ -129,6 +135,7 @@ html {
     background: #18BC9C;
     margin-top: 0;
     height: 33rem;
+    overflow: none;
   }
   /* titulo*/
   h2.text-uppercase {
@@ -140,29 +147,38 @@ html {
     font-size: 3rem;
     font-weight: bolder;
     font-family: font-family: 'Lato', sans-serif;
-    
   }
+  /*linea hr */
+.line {
+  width: 15rem;
+  background: white;
+  height: 0.5rem;
+  border: none;
+  margin-bottom: 3rem;
+}
   /* párrafo*/
   div.span   {
    color: white;
-   display: inline-block;
-   box-sizing: border-box;
    text-align: justify;
    text-transform: initial;
-   height: 6rem;
    width:30rem;
-   padding-left: 14rem;
+   padding-left: 15rem;
+   margin-right: -11rem;
+   line-height: 1.5rem;
+   float:left;
   }
   /* boton download*/
   ul.list {
     list-style: none;
-    margin-left: 35rem;
-    margin-right: 34rem;
+    margin-left: 42rem;
+    margin-right: 40rem;
     border: 1px solid white;
     border-radius: 4px;
     padding: 1rem;
+    margin-top:12rem;
     color: white;
     font-family: 'Lato', sans-serif;
+
     }
   /* icono*/
   .fa-download::before {
@@ -173,7 +189,10 @@ html {
   .sectionfour {
     background: #FFFFFF;
     height: 55rem;
-  
+  }
+
+  .fa.star {
+    font-size: 3rem;
   }
   /* Input*/
   .contact {
@@ -191,13 +210,17 @@ html {
   input {
   height: 6rem;
   width: 50rem;
-  margin-left: 10rem; 
+  margin-left: 20rem; 
   font-size: 2rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
   }
   /* boton send*/
   .botton li  {
     list-style: none;
     margin-top: 4rem;
+    margin-left: 9rem;
   }
   .botton1 {
     background-color:  #5BC7CB; 
@@ -208,26 +231,68 @@ html {
     height: 3rem;
     margin-left: 10rem;
   }
+   .botton1:hover {
+    background: #287539;
+  }
   
   /* final*/
   .footer {
     background: #2C3E50;
     color: white;
     height: 20rem;
+    padding-top: 4rem;
+    padding-left: 5rem;
+    
+
+  }
+  .boxcolumn {
+    padding-left: 1rem;
+    width: 97%; 
+    overflow: none;
   }
   .column {
-    display: inline-block;
     text-align: center;
-    margin: 3rem;
-    top: 3rem;
+    margin: 1rem;
     padding-left: 3rem;
+    width: 20rem;
+    margin-top: 0;
+    float: left;
+    
+    
   }
   .pie {
     text-align: center;
+    
+  }
+  h3 {
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+  p{
+    font-size: 1.3rem;
   }
   
-  
-  
+  li {
+   list-style: none;
+   display: inline-block;
+   font-size: 22px;
+  }
+
+
+  .redsocial {
+   box-sizing: border-box;
+   border: 2px solid white;
+   border-radius: 100%;  
+   width:3rem; 
+   height: 3rem;
+   margin:1px;
+   padding-top:0.6rem;  
+  }
+  .redsocial:hover {
+    color: #5BC7CB;
+    background: white;
+
+  }
   
   
   
